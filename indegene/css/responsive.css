@@ -1,0 +1,207 @@
+@media (max-width: 767px) {
+    .social-nav-li,
+    .nav-menutitle {
+        display: none;
+    }
+    .logo img {
+        width: 65%;
+    }
+    [id="main-navigation-toggle"]~label {
+        top: -10px;
+    }
+    .nav-main {
+        top: 3rem;
+    }
+    .menu>.menu__item {
+        font-size: 20px;
+    }
+    .menu {
+        text-align: center;
+    }
+    .nav-main {
+        justify-content: center;
+    }
+    .subttext {
+        font-size: 16px;
+        font-weight: 500;
+        color: #fff;
+        margin-bottom: 20px;
+    }
+    .slider,
+    .slide {
+        height: 50vh;
+    }
+    .slide .slide__content {
+        top: 60%;
+    }
+    .slide .slide__content--headings .top-title {
+        font-size: 18px;
+        margin-bottom: 1rem;
+        font-weight: 400;
+    }
+    .slide .slide__content--headings .title {
+        font-size: 14px;
+        font-weight: 100;
+        margin-bottom: 1rem;
+        text-transform: uppercase;
+    }
+    .button-custom-white {
+        padding: 16px 16px 16px 16px;
+        margin-right: 0rem;
+        font-size: 12px;
+    }
+    .button-custom-color {
+        padding: 15px 5px;
+        margin-right: 1rem;
+        font-size: 12px;
+    }
+    .figcaption-title {
+        font-size: 14px;
+        font-weight: 500;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+    }
+    .event-bg img.img-fluid {
+        display: none;
+    }
+    .event-bg {
+        background: url(../img/background/events-bg.jpg);
+        background-repeat: no-repeat;
+        min-height: 250px;
+        background-size: cover;
+        background-position: center;
+    }
+    .dv-event-section figure {
+        display: flex;
+        align-items: center;
+        padding-left: 15px;
+        padding-right: 15px;
+        position: relative;
+        height: 250px;
+        top: unset;
+    }
+    .flex-direction-row-reverse {
+        flex-direction: column;
+    }
+    .dv-icon {
+        width: 100px;
+        margin: 0 auto;
+        margin-bottom: 8px;
+    }
+    .dv-company-description {
+        text-align: center;
+    }
+    .flex-direction-row {
+        flex-direction: column;
+    }
+    .dv-company-description p {
+        text-align: center;
+    }
+    .testimonials h3 {
+        font-size: 26px;
+        margin-bottom: 10px;
+    }
+    #customers-testimonials .item {
+        padding: 15px;
+    }
+    .title-36 {
+        font-size: 26px;
+    }
+    .dv-event-wrapper-text {
+        padding-left: 0px;
+        padding-top: 10px;
+    }
+    .h4-event-title {
+        font-size: 16px;
+    }
+    .event-calendar,
+    .event-location,
+    .event-address {
+        font-size: 12px;
+        padding-bottom: 5px;
+        padding-left: 5px;
+    }
+    .blog-title {
+        font-size: 18px;
+    }
+    .blog-description {
+        font-size: 12px;
+    }
+    .dv-blog-date {
+        font-size: 24px;
+        padding-bottom: 0px;
+    }
+    .dv-blog-days {
+        font-size: 14px;
+        text-align: center;
+        color: #c8b7a5;
+    }
+    .blog-wrapper {
+        margin: 15px 0;
+    }
+    .h3-title {
+        font-size: 22px !important;
+    }
+    .fnav-dv-form-control input {
+        padding: 5px 15px;
+        width: 40%;
+        line-height: 35px;
+        font-size: 12px;
+    }
+    .fnav-dv-form-control button {
+        font-size: 12px;
+        padding: 15px 25px;
+        line-height: 15px;
+    }
+    .dv-footer-ul {
+        display: block;
+    }
+    .dv-footer-li-copy {
+        border-right: 0px !important;
+    }
+    .dv-footer-li {
+        float: left;
+        font-size: 12px !important;
+        padding: 0 11px !important;
+    }
+    .dv-footer-ul {
+        display: block;
+        text-align: center;
+        font-size: 12px;
+    }
+    .dv-footer-ul ul {
+        align-items: center;
+        justify-content: center;
+        margin-top: 1rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .slider,
+    .slide {
+        height: 100vh;
+    }
+}
+
+@media (min-width: 992px) {
+    .slide .slide__img {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        -webkit-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+}
+
+@media (max-width: 1024px) and (min-width: 768px) {
+    .slider,
+    .slide {
+        height: 85vh;
+    }
+    .flex-direction-row-reverse {
+        flex-direction: row;
+    }
+    .dv-company-description {
+        text-align: left;
+    }
+}
